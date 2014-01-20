@@ -21,6 +21,7 @@
 		0000BD35188CE940009FFB99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000BD17188CE93F009FFB99 /* UIKit.framework */; };
 		0000BD3D188CE940009FFB99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0000BD3B188CE940009FFB99 /* InfoPlist.strings */; };
 		0000BD3F188CE940009FFB99 /* APNTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000BD3E188CE940009FFB99 /* APNTestTests.m */; };
+		0000BD49188CF997009FFB99 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000BD48188CF997009FFB99 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0000BD3A188CE940009FFB99 /* APNTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNTestTests-Info.plist"; sourceTree = "<group>"; };
 		0000BD3C188CE940009FFB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0000BD3E188CE940009FFB99 /* APNTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNTestTests.m; sourceTree = "<group>"; };
+		0000BD48188CF997009FFB99 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0000BD4A188CFA74009FFB99 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0000BD49188CF997009FFB99 /* AudioToolbox.framework in Frameworks */,
 				0000BD16188CE93F009FFB99 /* CoreGraphics.framework in Frameworks */,
 				0000BD18188CE93F009FFB99 /* UIKit.framework in Frameworks */,
 				0000BD14188CE93F009FFB99 /* Foundation.framework in Frameworks */,
@@ -101,6 +105,8 @@
 		0000BD12188CE93F009FFB99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0000BD4A188CFA74009FFB99 /* AudioUnit.framework */,
+				0000BD48188CF997009FFB99 /* AudioToolbox.framework */,
 				0000BD13188CE93F009FFB99 /* Foundation.framework */,
 				0000BD15188CE93F009FFB99 /* CoreGraphics.framework */,
 				0000BD17188CE93F009FFB99 /* UIKit.framework */,
@@ -460,6 +466,7 @@
 				0000BD44188CE940009FFB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0000BD45188CE940009FFB99 /* Build configuration list for PBXNativeTarget "APNTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				0000BD47188CE940009FFB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
